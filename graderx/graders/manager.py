@@ -51,7 +51,7 @@ def extract_submissions(dest_directory: Path, submissions_file: FileStorage,  ve
         status = [extract_file(file_path), False][os.path.exists(file_path)]
         print("***[Success]: File extracted successfully")
     except:
-        print("***[Error]: File is not RAR archive")
+        print("***[Error]: Archive is damaged")
         return False
     return status
 
