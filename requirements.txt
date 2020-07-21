@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apipkg==1.5
 ascii-graph==1.5.1
 astroid==2.4.2
@@ -32,3 +33,11 @@ toml==0.10.1
 wcwidth==0.2.5
 Werkzeug==1.0.1
 wrapt==1.12.1
+=======
+click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+>>>>>>> staging

@@ -3,11 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 
 **/scratch_disk/*
 !**/.gitkeep
 **/submissions
 
+=======
+>>>>>>> staging
 # C extensions
 *.so
 
@@ -143,6 +146,7 @@ dmypy.json
 cython_debug/
 
 # Editor
+<<<<<<< HEAD
 .vscode
 
 #Courses
@@ -151,3 +155,6 @@ cython_debug/
 #results
 output.txt
 parser_output
+=======
+.vscode
+>>>>>>> staging

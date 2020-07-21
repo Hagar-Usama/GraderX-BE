@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from pathlib import Path
 from flask import request, jsonify, send_file
 from graderx import app
@@ -88,3 +89,6 @@ def get_results(lab_id):
         return send_file(str(path_to_result))
     else:
         return "Results file for this lab not found, you must upload submissions first", 404
+=======
+from graderx import app
+>>>>>>> staging
